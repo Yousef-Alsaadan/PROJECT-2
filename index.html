@@ -1,22 +1,75 @@
 <html lang="ar" dir="rtl">
     <head>
+        <!--meta section-->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Yousef Alsaadan">
 
+        <!--web icon-->
         <link rel="icon" type="image/x-icon" href="https://cdn.tuwaiq.edu.sa/landing/images/logo/favicon.ico">
 
-        <link rel="stylesheet" href="home.css">
-        <link rel="stylesheet" href="media_home.css">
-
+        <!--style links-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cairo:slnt,wght@-11..11,200..1000&display=swap" rel="stylesheet">
         
+        <!--stylesheet-->
+        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="media_home.css">
+
         <title>أكاديمية طويق</title>
     </head>
     <body>
+        <div class="container container-lg container-md container-sm">
+            <!--navbar start-->
+            <nav class="nav_bar">
+                <div class="nav_links">
+                    <a href="index.html" class="nav_logo">
+                        <img src="logo_navbar.png" alt="شعار أكاديمية طويق">
+                    </a>
+
+                    <ul class="navbar_list">
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="#">المعسكرات والبرامج</a></li>
+                        <li><a href="about.html">حول الأكاديمية</a></li>
+                        <li><a href="#">الأكاديميات التابعة</a></li>
+                        <li><a href="#">مركز الإختبارات</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav_login">
+                    <a href="#">تسجيل الدخول</a>
+                </div>
+                <!--navbar mobile start-->
+                <div class="navbar_mobile">
+                    <nav class="navbar navbar-dark">
+                        <div class="container-fluid" dir="ltr">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                    </nav>
+                    <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+                        <div class="p-4 nav_links_mobile">
+                            <ul>
+                                <li><a href="index.html">الرئيسية</a></li>
+                                <li><a href="#">المعسكرات والبرامج</a></li>
+                                <li><a href="about.html">حول الأكاديمية</a></li>
+                                <li><a href="#">الأكاديميات التابعة</a></li>
+                                <li><a href="#">مركز الإختبارات</a></li>
+                            </ul>
+                            <div class="nav_login_mobile">
+                                <a href="#">تسجيل الدخول</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--navbar mobile end-->
+            </nav>
+            <!--navbar end-->
+        </div>
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>

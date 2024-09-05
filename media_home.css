@@ -1,0 +1,28 @@
+/* Medium devices (tablets phones and large phones, 992px and down) */
+@media only screen and (max-width: 992px){
+    /*navbar media*/
+    .nav_links ul, .nav_login{
+        display: none;
+    }
+
+    .navbar_mobile{
+        display: block;
+    }
+
+    .nav_logo img{
+        width: 50vw;
+    }
+
+    .nav_links_mobile a{
+        color: white;
+        font-weight: 300;
+    }
+    .nav_links_mobile li{
+        padding-bottom: 1em;
+    }
+
+    .nav_login_mobile a{
+        color: white;
+        font-weight: 500;
+    }
+}

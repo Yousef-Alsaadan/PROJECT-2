@@ -1,0 +1,50 @@
+/*basic style*/
+*{
+    margin: 0;
+    padding: 0;
+
+    text-decoration: none !important;
+    list-style: none;
+
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+/*navbar style*/
+.nav_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: black;
+}
+
+.nav_links{
+    display: flex;
+    align-items: end;
+    gap: .5em;
+}
+.nav_links ul{
+    display: flex;
+    gap: 1em;
+}
+
+.nav_logo img{
+    width: 15vw;
+}
+
+.navbar_list a{
+    color: white;
+    font-weight: 300;
+}
+
+.nav_login a{
+    color: white;
+    font-weight: 500;
+}
+
+.navbar_mobile{
+    display: none;
+}
