@@ -95,6 +95,97 @@
     justify-content: center;
 }
 
+/*camps style*/
+.camps{
+    background-color: #F1F4F7;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2em;
+}
+.camps h5{
+    text-align: center;
+    font-weight: 700;
+    color: #4E3797;
+    margin-bottom: 3em;
+}
+.camps a{
+    text-align: center;
+    color: #4E3797;
+    border: 1px solid #4E3797;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15em;
+    height: 2em;
+}
+
+.border_green{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 15px #BEE5C2;
+    border-style: none solid none none;
+    border-radius: 15px;
+}
+
+.green{
+    color: #BEE5C2;
+}
+.green a{
+    color: #BEE5C2;
+    border: 1px solid #BEE5C2;
+}
+
+.border_blue{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 15px #91D8DB;
+    border-style: none solid none none;
+    border-radius: 15px;
+}
+
+.blue{
+    color: #91D8DB;
+}
+.blue a{
+    color: #91D8DB;
+    border: 1px solid #91D8DB;
+}
+
+.card_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 3em;
+}
+.card_content a{
+    width: 7em;
+    margin-bottom: 10px;
+}
+
+.main_content{
+    display: flex;
+    flex-direction: column;
+}
+
+.sub_content{
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+.sub_content p{
+    padding-top: 10px;
+}
+.sub_content svg{
+    color: gray;
+}
+
 
 /*footer style*/
 /*Companies style*/
