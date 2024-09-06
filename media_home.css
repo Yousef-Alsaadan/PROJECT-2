@@ -44,6 +44,12 @@
     }
 
 
+    /*Activities media*/
+    .activities_card{
+        width: auto;
+    }
+
+
     /*footer media*/
     /*Companies media*/
     .co_footer{
@@ -94,6 +100,14 @@
     .report_card{
         width: auto;
     }
+
+
+    /*Activities media*/
+    .activities_card{
+        width: auto;
+    }
+
+    
     /*footer media*/
     /*Companies media*/
     .co_img{

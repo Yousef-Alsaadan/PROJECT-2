@@ -251,6 +251,62 @@
 }
 
 
+/*activities style*/
+.activities{
+    padding-bottom: 2em;
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2em;
+    background-color: #4E3797;
+}
+.activities h5{
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+
+.activities_card{
+    border: none;
+    border-radius: 15px;
+    width: 15em;
+    height: 20em;
+}
+
+.activities_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.activities_content h5{
+    color: #5BBEC1;
+}
+.activities_content p{
+    font-weight: 600;
+}
+.activities_content a{
+    text-align: center;
+    background-color: #4E3797;
+    color: white;
+    border: 1px solid #4E3797;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 2em;
+}
+
+.activities_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /*footer style*/
 /*Companies style*/
