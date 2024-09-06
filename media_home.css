@@ -10,7 +10,8 @@
     }
 
     .nav_logo img{
-        width: 50vw;
+        max-width: 100%;
+        height: auto;
     }
 
     .nav_links_mobile a{
@@ -24,5 +25,49 @@
     .nav_login_mobile a{
         color: white;
         font-weight: 500;
+    }
+
+
+    /*footer media*/
+    /*Companies media*/
+    .co_img{
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .apple_logo img{
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .meta_logo{
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .people_logo{
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .ibm_logo img{
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    /*news*/
+    .form_footer form{
+        flex-direction: column;
+    }
+
+    /*links*/
+    .main_links{
+        flex-direction: column;
+        gap: 1em;
+    }
+    .main_links img{
+        max-width: 100%;
+        height: auto;
     }
 }

@@ -16,7 +16,7 @@
 .nav_bar{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 
     background-color: black;
 }
@@ -47,4 +47,138 @@
 
 .navbar_mobile{
     display: none;
+}
+
+
+/*footer style*/
+/*Companies style*/
+.co_footer{
+    background-color: #F1F4F7;
+    padding-bottom: 1em;
+    margin: 0;
+}
+.co_footer h5{
+    text-align: center;
+    font-weight: 700;
+    color: #4E3797;
+    margin-bottom: 3em;
+    padding-top: 1em;
+}
+
+.co_img{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.co{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 4em;
+    width: 8em;
+}
+
+.apple_logo img{
+    width: 30%;
+}
+
+.meta_logo{
+    width: 50%;
+}
+
+.people_logo{
+    width: 50%;
+}
+
+.ibm_logo img{
+    width: 50%;
+}
+
+
+/*news*/
+.form_footer{
+    background-color: #5BBEC1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1em;
+}
+.form_footer h5{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 3em;
+    padding-top: 1em;
+}
+.form_footer form{
+    display: flex;
+    gap: 1em;
+}
+.form_footer input{
+    border: none;
+    padding: .5em 1em;
+    border-radius: 5px;
+}
+.form_footer button{
+    background-color: #4E3797;
+    color: white;
+    border: none;
+    padding: .5em 3em;
+    border-radius: 10px;
+}
+
+
+/*links*/
+.footer_links{
+    background-color: #4E3797;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+    text-align: center;
+}
+
+.main_links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main_links img{
+    width: 15vw;
+}
+
+.footer_link{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+.footer_link a{
+    color: white;
+    font-weight: 300;
+}
+.footer_links p{
+    font-weight: 300;
+}
+
+.social_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
+    margin-top: 1em;
+}
+
+.social_icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .5em;
+}
+.icon{
+    background-color: white;
+    color: #4E3797;
+    border-radius: 50%;
+    padding: 5px;
 }
