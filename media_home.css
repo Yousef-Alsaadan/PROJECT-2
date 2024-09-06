@@ -28,40 +28,49 @@
     }
 
 
-    /*footer media*/
-    /*Companies media*/
-    .co_img{
-        flex-direction: column;
-        gap: 1em;
+    /*hero media*/
+    .hero_text h1{
+        font-weight: 900;
+        font-size: 3em;
+    }
+    .hero_text a{
+        width: 7.5em;
     }
 
-    .apple_logo img{
-        max-width: 100%;
+    /*footer media*/
+    /*Companies media*/
+    .co_footer{
         height: auto;
+        padding-top: 2em;
     }
-    
-    .meta_logo{
-        max-width: 100%;
-        height: auto;
+    .co_img{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        justify-content: center;
     }
-    
-    .people_logo{
-        max-width: 100%;
-        height: auto;
-    }
-    
-    .ibm_logo img{
+
+    .co img{
         max-width: 100%;
         height: auto;
     }
 
 
     /*news*/
+    .form_footer{
+        height: auto;
+        padding-top: 2em;
+    }
     .form_footer form{
         flex-direction: column;
     }
 
     /*links*/
+    .footer_links{
+        height: auto;
+        padding-top: 2em;
+        gap: 4em;
+    }
     .main_links{
         flex-direction: column;
         gap: 1em;
