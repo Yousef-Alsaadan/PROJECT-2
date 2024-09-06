@@ -95,6 +95,7 @@
     justify-content: center;
 }
 
+
 /*camps style*/
 .camps{
     background-color: #F1F4F7;
@@ -185,6 +186,70 @@
 .sub_content svg{
     color: gray;
 }
+
+
+/*report style*/
+.report{
+    padding-bottom: 2em;
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2em;
+}
+.report h5{
+    text-align: center;
+    font-weight: 700;
+    color: #4E3797;
+}
+.report a{
+    text-align: center;
+    color: #4E3797;
+    border: 1px solid #4E3797;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15em;
+    height: 2em;
+}
+
+.report_card{
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    width: 15em;
+    height: 20em;
+}
+
+.report_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1em;
+}
+.report_content h5{
+    color: #5BBEC1;
+}
+.report_content h1{
+    color: #4E3797;
+    font-weight: 700;
+}
+
+.report_icon{
+    height: 4em;
+    width: 4em;
+    background-color: #5BBEC1;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 /*footer style*/
