@@ -78,6 +78,7 @@
         grid-template-columns: auto;
     }
 
+
     /*location media*/
     .location_box{
         flex-direction: column;
@@ -90,6 +91,33 @@
     .location_map iframe{
         width: 100%;
         height: auto;
+    }
+
+
+    /*footer media*/
+    .footer_about{
+        border-radius: 30px 30px 30px 30px;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .footer_links{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer_logo img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .footer_link{
+        padding-top: 2em;
+    }
+
+    .footer_social{
+        flex-direction: column-reverse;
+        gap: 1em;
     }
 }
 
