@@ -39,7 +39,7 @@
     }
 
 
-    /*hero style*/
+    /*hero media*/
     .hero_main{
         flex-direction: column;
     }
@@ -62,22 +62,33 @@
     }
 
 
-    /*how we are style*/
+    /*how we are media*/
     .how{
         height: 50vh;
     }
 
 
-    /*our servers style*/
+    /*our servers media*/
     .servers_content{
         grid-template-columns: auto auto;
+    }
+
+    .servers_box{
+        align-items: center;
+        text-align: center;
+    }
+
+
+    /*report media*/
+    .report_content{
+        grid-template-columns: auto;
     }
 }
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1200px) and (min-width: 993px){
-    /*hero style*/
+    /*hero media*/
     .hero_video video{
         width: 100%;
         height: 100%;
