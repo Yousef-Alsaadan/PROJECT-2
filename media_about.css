@@ -1,0 +1,55 @@
+/* Medium devices (tablets phones and large phones, 992px and down) */
+@media only screen and (max-width: 992px){
+    /*navbar media*/
+    .navbar_main ul, .nav_login{
+        display: none;
+    }
+
+    .navbar_mobile, .nav_links_mobile ul{
+        display: block;
+    }
+
+    .nav_logo img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .nav_links_mobile a{
+        color: black;
+        font-weight: 500;
+        font-size: large;
+    }
+    .nav_links_mobile li{
+        padding-bottom: 1em;
+    }
+
+    .nav_login_mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #4f29b7;
+        height: 3em;
+        width: 10em;
+        border-radius: 10px;
+    }
+    .nav_login_mobile a{
+        color: #57e3d8;
+        font-weight: 500;
+        font-size: large;
+    }
+
+
+    /*hero style*/
+    .hero_main{
+        flex-direction: column;
+    }
+
+    .hero_video video{
+        width: 100%;
+        height: auto;
+    }
+
+    .hero_detail{
+        translate: 0 -3em;
+    }
+}
