@@ -62,12 +62,6 @@
     }
 
 
-    /*how we are media*/
-    .how{
-        height: 50vh;
-    }
-
-
     /*our servers media*/
     .servers_content{
         grid-template-columns: auto auto;
@@ -82,6 +76,20 @@
     /*report media*/
     .report_content{
         grid-template-columns: auto;
+    }
+
+    /*location media*/
+    .location_box{
+        flex-direction: column;
+    }
+
+    .location_content p{
+        text-align: center;
+    }
+
+    .location_map iframe{
+        width: 100%;
+        height: auto;
     }
 }
 

@@ -100,6 +100,7 @@ body::before{
 }
 .hero_detail p{
     color: gray;
+    font-weight: 300;
 }
 
 .detail_box1{
@@ -163,7 +164,6 @@ body::before{
 /*how we are style*/
 .how{
     background-color: #f5f5f7;
-    height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -262,4 +262,51 @@ body::before{
 }
 .report_box p{
     color: gray;
+    font-weight: 300;
+}
+
+
+/*location style*/
+.location{
+    margin-top: 5em;
+}
+
+.location_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F3F8FF;
+    border-radius: 10px;
+}
+
+.location_content{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    padding: 3em;
+}
+.location_content p{
+    color: gray;
+    margin: .5em;
+    font-size: large;
+    font-weight: 300;
+}
+
+.location_title{
+    display: flex;
+    gap: .5em;
+    align-items: center;
+}
+.location_title svg{
+    font-size: 3em;
+    color: #5883BF;
+}
+
+.location_map{
+    padding: 1em;
+}
+.location_map iframe{
+    height: 25em;
+    width: 30em;
+    border-radius: 10px;
 }
