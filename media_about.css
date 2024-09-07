@@ -118,6 +118,7 @@
     .footer_social{
         flex-direction: column-reverse;
         gap: 1em;
+        text-align: center;
     }
 }
 
