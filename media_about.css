@@ -62,13 +62,15 @@
     }
 
 
-    /*how we are start*/
+    /*how we are style*/
     .how{
         height: 50vh;
     }
-    .how h1{
-        font-size: 2em;
-        margin-bottom: 1em;
+
+
+    /*our servers style*/
+    .servers_content{
+        grid-template-columns: auto auto;
     }
 }
 

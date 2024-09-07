@@ -160,7 +160,7 @@ body::before{
 }
 
 
-/*how we are start*/
+/*how we are style*/
 .how{
     background-color: #f5f5f7;
     height: 40vh;
@@ -178,4 +178,52 @@ body::before{
 .how h4{
     font-weight: 400;
     color: gray;
+}
+
+
+/*our servers style*/
+.servers{
+    margin-top: 5em;
+}
+.servers h1{
+    font-size: 4em;
+    font-weight: 600;
+    margin-bottom: .5em;
+}
+
+.servers_content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1em;
+}
+
+.servers_box{
+    background-color: #f9fafb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    padding: 2em;
+}
+.servers_box svg{
+    font-size: 4em;
+}
+
+.pink{
+    color: #ff8181;
+}
+.yellow{
+    color: #ffdb5e;
+}
+.blue2{
+    color: #4d96ff;
+}
+.orange{
+    color: #f5a664;
+}
+.purple{
+    color: #a480ff;
+}
+.green2{
+    color: #80d883;
 }
