@@ -37,10 +37,16 @@
     color: white;
     font-weight: 300;
 }
+.navbar_list a:hover{
+    color: #5BBEC1;
+}
 
 .nav_login a{
     color: white;
     font-weight: 500;
+}
+.nav_login a:hover{
+    color: #5BBEC1;
 }
 
 .navbar_mobile{
@@ -94,6 +100,9 @@
     align-items: center;
     justify-content: center;
 }
+.hero_text a:hover{
+    background-color: rgba(91, 190, 193, 0.8);
+}
 
 
 /*camps style*/
@@ -124,6 +133,11 @@
     width: 15em;
     height: 2em;
 }
+.camps a:hover{
+    color: white;
+    border-color: white;
+    background-color: #4E3797;
+}
 
 .border_green{
     box-sizing: border-box;
@@ -141,6 +155,11 @@
     color: #BEE5C2;
     border: 1px solid #BEE5C2;
 }
+.green a:hover{
+    color: white;
+    border-color: white;
+    background-color: #BEE5C2;
+}
 
 .border_blue{
     box-sizing: border-box;
@@ -157,6 +176,11 @@
 .blue a{
     color: #91D8DB;
     border: 1px solid #91D8DB;
+}
+.blue a:hover{
+    color: white;
+    border-color: white;
+    background-color: #91D8DB;
 }
 
 .card_content{
@@ -213,6 +237,11 @@
     justify-content: center;
     width: 15em;
     height: 2em;
+}
+.report a:hover{
+    color: white;
+    border-color: white;
+    background-color: #4E3797;
 }
 
 .report_card{
@@ -299,6 +328,11 @@
     justify-content: center;
     width: 100%;
     height: 2em;
+}
+.activities_content a:hover{
+    color: #4E3797;
+    border-color: #4E3797;
+    background-color: white;
 }
 
 .activities_icon{
@@ -391,6 +425,11 @@
     align-items: center;
     justify-content: center;
 }
+.sub_news a:hover{
+    color: white;
+    border-color: white;
+    background-color: #4E3797;
+}
 
 .more_news li{
     border-bottom: 1px solid black;
@@ -474,6 +513,9 @@
     padding: .5em 3em;
     border-radius: 10px;
 }
+.form_footer button:hover{
+    background-color: #581c87;
+}
 
 /*links*/
 .footer_links{
@@ -501,6 +543,9 @@
 .footer_link a{
     color: white;
     font-weight: 300;
+}
+.footer_link a:hover{
+    color: #5BBEC1;
 }
 .footer_links p{
     font-weight: 300;
